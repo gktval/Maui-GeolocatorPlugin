@@ -1,4 +1,4 @@
-Geolocator Plugin for Maui and Windows
+Geolocator Plugin for .Net Maui
 
 Simple cross platform plugin to get GPS location including heading, speed, and more. Additionally, you can track geolocation changes, reverse geocode, and more.
 This project was ported from James Montemango's Xamarin GeolocatorPlugin: https://github.com/jamesmontemagno/GeolocatorPlugin
@@ -10,14 +10,14 @@ Get started by reading through the Geolocator Plugin documentation.
 For common questions and issues see the FAQ
 NuGet
 
-    Available on NuGet: Maui.Plugin.Geolocator NuGet
+    Available on NuGet: Geolocator.Plugin NuGet
 
 Platform Support
 
-Version 4.X
+Version 1.X
 Platform 	Version
-Xamarin.iOS 	iOS 8+
-Xamarin.Android 	API 14+
+iOS 	iOS 8+
+Android 	API 14+
 Windows 10    10+
 macOS 	All
 
@@ -29,7 +29,7 @@ Created By: @JamesMontemagno
     Podcasts: Merge Conflict, Coffeehouse Blunders, The Xamarin Podcast
     Video: The Xamarin Show on Channel 9, YouTube Channel
 
-Ported to Maui by Travis Yeik
+Ported to .Net Maui by Travis Yeik
 
 License
 
