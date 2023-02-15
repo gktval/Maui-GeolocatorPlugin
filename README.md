@@ -21,8 +21,9 @@ Android 	API 14+
 Windows 10    10+
 macOS 	All
 
-Feature requests Vote for a feature requests at feature
+
 Created by: @JamesMontemagno
+
 Ported to .Net Maui by: Travis Yeik
 
 License
