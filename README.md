@@ -22,21 +22,11 @@ Windows 10    10+
 macOS 	All
 
 Feature requests Vote for a feature requests at feature
-Created By: @JamesMontemagno
-
-    Twitter: @JamesMontemagno
-    Blog: MotzCod.es, Micro Blog
-    Podcasts: Merge Conflict, Coffeehouse Blunders, The Xamarin Podcast
-    Video: The Xamarin Show on Channel 9, YouTube Channel
-
-Ported to .Net Maui by Travis Yeik
+Created by: @JamesMontemagno
+Ported to .Net Maui by: Travis Yeik
 
 License
 
 The MIT License (MIT) see License file
 
 This is a derivative to .Net Maui's Geolocator with a cross platform API and other enhancements.
-
-Want To Support This Project?
-
-All I have ever asked is to be active by submitting bugs, features, and sending those pull requests down! Want to go further? Make sure to subscribe to my weekly development podcast Merge Conflict, where I talk all about awesome Xamarin goodies and you can optionally support the show by becoming a supporter on Patreon.
