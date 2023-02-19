@@ -35,11 +35,11 @@ public class CrossGeolocator
 #if ANDROID
             return new Platforms.Android.GeolocatorImplementation();
 #elif IOS
-            return null;
+            return new Platforms.iOS.GeolocatorImplementation();
 #elif MACCATALYST
-            return null;
+            return new Platforms.MacCatalyst.GeolocatorImplementation();
 #elif WINDOWS
-            return null;
+            return new Platforms.Windows.GeolocatorImplementation();
 #endif
 
         throw new PlatformNotSupportedException();

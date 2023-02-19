@@ -24,7 +24,7 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageId>Geolocator.Plugin</PackageId>
 		<RepositoryUrl>https://github.com/gktval/Maui-GeolocatorPlugin</RepositoryUrl>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
