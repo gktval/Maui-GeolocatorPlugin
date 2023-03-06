@@ -52,7 +52,7 @@ public class GeolocatorImplementation : IGeolocator
         {
             Console.WriteLine("Currently does not have Location permissions, requesting permissions");
 
-            status = await Permissions.CheckStatusAsync<Permissions.LocationWhenInUse>();
+            status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
 
             if (status != PermissionStatus.Granted)
             {
@@ -71,7 +71,7 @@ public class GeolocatorImplementation : IGeolocator
         {
             Console.WriteLine("Currently does not have Location permissions, requesting permissions");
 
-            status = await Permissions.CheckStatusAsync<Permissions.LocationAlways>();
+            status = await Permissions.RequestAsync<Permissions.LocationAlways>();
 
             if (status != PermissionStatus.Granted)
             {
