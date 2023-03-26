@@ -17,14 +17,14 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>Maui GeolocatorPlugin</Title>
-		<Authors>Travis Yeik</Authors>
+		<Authors>Travis Yeik, White Fossa</Authors>
 		<Description>A .NET Maui Plugin for GPS location including heading, speed, and more. Additionally, you can track geolocation changes, reverse geocode, and more.</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageTags>Geolocator,Maui</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageId>Geolocator.Plugin</PackageId>
-		<RepositoryUrl>https://github.com/gktval/Maui-GeolocatorPlugin</RepositoryUrl>
-		<Version>1.0.2</Version>
+		<PackageId>Whitefossa.Geolocator.Plugin</PackageId>
+		<RepositoryUrl>https://github.com/whitefossa/Maui-GeolocatorPlugin</RepositoryUrl>
+		<Version>0.0.2</Version>
 	</PropertyGroup>
 
 	<ItemGroup>

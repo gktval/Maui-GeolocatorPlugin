@@ -56,4 +56,9 @@ public class ListenerSettings
     /// A boolean indicating whether Always permission should be required to start location listening
     /// </summary>
     public bool RequireLocationAlwaysPermission { get; set; } = false;
+
+    /// <summary>
+    /// List of providers, which will be used to listen for location. If empty then all available providers will be user (Android only). Default: empty
+    /// </summary>
+    public string[] LocationProvidersToUse { get; set; } = Array.Empty<string>();
 }

@@ -9,7 +9,7 @@ Get started by reading through the [Geolocator Plugin documentation](https://jam
 For common questions and issues see the FAQ
 
 ## NuGet
-    Available on NuGet: Geolocator.Plugin NuGet
+    Available on NuGet: Whitefossa.Geolocator.Plugin NuGet
 
 **Platform Support**
 
@@ -23,6 +23,7 @@ For common questions and issues see the FAQ
 
 ### Created By: [@JamesMontemagno](http://twitter.com/jamesmontemagno)
 ### Ported to Maui By: Travis Yeik
+### Modified by White Fossa (http://fossa.life)
 
 #### License
 The MIT License (MIT) see [License file](LICENSE)
