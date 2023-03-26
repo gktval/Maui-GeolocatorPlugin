@@ -22,7 +22,7 @@
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageTags>Geolocator,Maui</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageId>whitefossa.Geolocator.Plugin</PackageId>
+		<PackageId>Whitefossa.Geolocator.Plugin</PackageId>
 		<RepositoryUrl>https://github.com/whitefossa/Maui-GeolocatorPlugin</RepositoryUrl>
 		<Version>0.0.1</Version>
 	</PropertyGroup>

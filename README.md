@@ -9,7 +9,7 @@ Get started by reading through the [Geolocator Plugin documentation](https://jam
 For common questions and issues see the FAQ
 
 ## NuGet
-    Available on NuGet: whitefossa.Geolocator.Plugin NuGet
+    Available on NuGet: Whitefossa.Geolocator.Plugin NuGet
 
 **Platform Support**
 
