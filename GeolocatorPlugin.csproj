@@ -24,7 +24,7 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageId>Whitefossa.Geolocator.Plugin</PackageId>
 		<RepositoryUrl>https://github.com/whitefossa/Maui-GeolocatorPlugin</RepositoryUrl>
-		<Version>0.0.1</Version>
+		<Version>0.0.2</Version>
 	</PropertyGroup>
 
 	<ItemGroup>

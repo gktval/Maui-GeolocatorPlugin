@@ -31,12 +31,12 @@ public class GeolocatorImplementation : IGeolocator
     string[] IgnoredProviders => new string[] { LocationManager.PassiveProvider, "local_database" };
 
     /// <summary>
-    /// Gets or sets the location manager providers to ignore when getting postition
+    /// Gets or sets the location manager providers to user when getting postition
     /// </summary>
     public static string[] ProvidersToUse { get; set; } = new string[] { };
 
     /// <summary>
-    /// Gets or sets the location manager providers to ignore when doing
+    /// Gets or sets the location manager providers to use when doing
     /// continuous listening
     /// </summary>
     public static string[] ProvidersToUseWhileListening { get; set; } = new string[] { };
@@ -326,7 +326,6 @@ public class GeolocatorImplementation : IGeolocator
         if (!hasPermission)
             throw new GeolocationException(GeolocationError.Unauthorized);
 
-
         var minTimeMilliseconds = minimumTime.TotalMilliseconds;
         if (minTimeMilliseconds < 0)
             throw new ArgumentOutOfRangeException(nameof(minimumTime));
@@ -335,6 +334,10 @@ public class GeolocatorImplementation : IGeolocator
         if (IsListening)
             throw new InvalidOperationException("This Geolocator is already listening");
 
+        ProvidersToUseWhileListening = listenerSettings != null
+            ? listenerSettings.LocationProvidersToUse
+            : Array.Empty<string>();
+        
         var providers = Providers;
         listener = new GeolocationContinuousListener(Manager, minimumTime, providers);
         listener.PositionChanged += OnListenerPositionChanged;
